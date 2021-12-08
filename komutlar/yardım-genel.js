@@ -6,8 +6,8 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Lord Creative Genel Komutlar`, client.user.avatarURL())
-.setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
+.setAuthor(`Nether Genel Komutlar`, client.user.avatarURL())
+.setDescription(`<:a_:821738957997211659>  Nether botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Komut Sayısı__`,`<:a_:821738957997211659>  \`${prefix}komutlar\` Botun Komut Sayısını Gösterir`,true)
 .addField(`__Davet Et__`,`<:a_:821738957997211659>  \`${prefix}davet\` Botumuzu Davet Edersiniz`,true)
 .addField(`__Bot Bilgi__`,`<:a_:821738957997211659>  \`${prefix}botbilgi\` Botumuzun İstatistikleri`,true)
