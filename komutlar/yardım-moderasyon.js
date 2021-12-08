@@ -6,8 +6,8 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Lord Creative Moderasyon Komutları`, client.user.avatarURL())
-.setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
+.setAuthor(`Nether Moderasyon Komutları`, client.user.avatarURL())
+.setDescription(`<:a_:821738957997211659>  Nether botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Sayaç__`,`<:a_:821738957997211659>  \`${prefix}sayaç\` Sunucunuza Sayaç Kurarsınız ve Anlık Bilgi Alırsınız`,true)
 .addField(`__Otomatik Rol__`,`<:a_:821738957997211659>  \`${prefix}otorol\` Suncunuza Yeni Gelen Üyelere Belirlediğiniz Rölü Verir`,true)
 .addField(`__Ban__`,`<:a_:821738957997211659>  \`${prefix}ban\` Sunucunuzda Belirtiğiniz Kişiyi Yasaklar`,true)
