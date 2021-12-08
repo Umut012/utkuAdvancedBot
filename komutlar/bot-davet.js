@@ -8,8 +8,8 @@ exports.run = async (client, message, args) => {
 
 const embed = new Discord.MessageEmbed()
 .setColor("#ffffff")
-.setAuthor(`Lord Creative Linkler`, client.user.avatarURL())
-.setDescription('**• [Lord Creative`i Ekleyin.](https://discord.com/oauth2/authorize?client_id=713713727794446397&scope=bot&permissions=8)**\n\n**• [Lord Creative Oy Ver](https://top.gg/bot/713713727794446397)**')
+.setAuthor(`Nether`, client.user.avatarURL())
+.setDescription('**• [Nether`i Ekleyin.](https://discord.com/oauth2/authorize?client_id=916742629700562974&scope=bot&permissions=1090921693183)**')
 .setFooter(`${message.author.username} tarafından istendi!`) 
 .setTimestamp()
 .setThumbnail(client.user.avatarURL())
